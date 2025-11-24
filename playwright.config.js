@@ -11,7 +11,6 @@ module.exports = defineConfig({
      reporter: [
     //['list'], // keep default console reporter
   ['allure-playwright', { outputFolder: 'allure-results' }]
-// add Allure reporter
   ],
     projects: [
         {
